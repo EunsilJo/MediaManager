@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MediaManager</string>
+    <string name="refresh">Refresh</string>
+    <string name="record_start">Start record</string>
+    <string name="record_stop">Stop record</string>
+    <string name="time">%1$s / %2$s</string>
+    <string name="speed">%.1fx</string>
+    <string name="toast_recorder_setup_failed">MediaRecorder loading failed.</string>
+    <string name="toast_recorder_info_max_file_size">The recording maximum size has been reached.</string>
+    <string name="toast_recorder_info_max_duration">The recording maximum duration has been reached.</string>
+    <string name="toast_mp_player_setup_failed">MediaPlayer loading failed.</string>
+    <string name="toast_sp_player_setup_failed">SoundPool loading failed.</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="oval"
+            android:useLevel="false">
+            <solid android:color="@color/colorAccent"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_mic_white_48dp"
+        android:top="@dimen/common_margin_15" android:bottom="@dimen/common_margin_15"
+        android:left="@dimen/common_margin_15" android:right="@dimen/common_margin_15"/>
+</layer-list>

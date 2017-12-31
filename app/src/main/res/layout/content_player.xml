@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="@dimen/common_margin_15"
+    android:background="@drawable/player_bg">
+    <ImageView
+        android:id="@+id/btnPlayPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.4"
+        android:src="@drawable/btn_play_pause" />
+
+    <com.github.eunsiljo.mediamanager.view.CustomSeekBar
+        android:id="@+id/seekBarPlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/common_margin_5"
+        android:layout_weight="1"
+        android:minHeight="@dimen/common_progressbar_width"
+        android:maxHeight="@dimen/common_progressbar_width"
+        android:indeterminate="false"
+        android:progressDrawable="@drawable/progress_primarydark"
+        android:thumb="@drawable/thumb_icon_primarydark"
+        android:thumbOffset="0dp" />
+
+    <TextView
+        android:id="@+id/txtTime"
+        style="@style/textSmall"
+        android:layout_marginLeft="@dimen/common_margin_5" />
+
+    <LinearLayout
+        android:id="@+id/layoutRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/common_margin_5"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/btnRateUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.4"
+            android:src="@drawable/ic_expand_less_black_24dp" />
+
+        <TextView
+            android:id="@+id/txtSpeed"
+            style="@style/textSmall"
+            android:layout_marginTop="@dimen/common_margin_5"
+            android:layout_marginBottom="@dimen/common_margin_5" />
+
+        <ImageView
+            android:id="@+id/btnRateDown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.4"
+            android:src="@drawable/ic_expand_more_black_24dp" />
+    </LinearLayout>
+</LinearLayout>
